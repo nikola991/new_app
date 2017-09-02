@@ -7,6 +7,6 @@ class ApplicationController < ActionController::Base
     render html: " ¡Hola, mundo! #{self.tok}  "   # method koj vrakja html so string hello world
   end
   def goodbye
-    render html: "Goodbyeeee :D "
+    render html: "Dali ova kje raboti sega? "
   end
 end
